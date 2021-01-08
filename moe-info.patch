@@ -1,0 +1,14 @@
+--- moe-1.11/doc/moe.texi.orig	2021-01-02 18:38:45.000000000 +0100
++++ moe-1.11/doc/moe.texi	2021-01-08 18:33:53.339379089 +0100
+@@ -9,9 +9,9 @@
+ @set UPDATED 2 January 2021
+ @set VERSION 1.11
+ 
+-@dircategory Editors
++@dircategory File utilities:
+ @direntry
+-* Moe: (moe).                   A powerful and user-friendly text editor
++* Moe: (moe).				A powerful and user-friendly text editor
+ @end direntry
+ 
+ 
