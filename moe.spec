@@ -10,10 +10,10 @@ Source0:	https://ftp.gnu.org/gnu/moe/%{name}-%{version}.tar.lz
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/moe/
 BuildRequires:	libstdc++-devel >= 6:4.7
+BuildRequires:	lzip
 BuildRequires:	ncurses-devel >= 5.6
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	texinfo
-BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
