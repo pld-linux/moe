@@ -1,8 +1,8 @@
---- moe-1.12/doc/moe.texi.orig	2022-01-22 18:19:55.014468266 +0100
-+++ moe-1.12/doc/moe.texi	2022-01-22 18:21:46.850529065 +0100
+--- moe-1.13/doc/moe.texi.orig	2023-06-07 22:52:42.494471292 +0200
++++ moe-1.13/doc/moe.texi	2023-06-08 06:14:12.670961693 +0200
 @@ -9,9 +9,9 @@
- @set UPDATED 20 January 2022
- @set VERSION 1.12
+ @set UPDATED 13 February 2023
+ @set VERSION 1.13
  
 -@dircategory Editors
 +@dircategory File utilities:

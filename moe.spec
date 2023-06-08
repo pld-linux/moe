@@ -1,12 +1,12 @@
 Summary:	Powerful and user-friendly text editor
 Summary(pl.UTF-8):	Funkcjonalny i przyjazny edytor tekstu
 Name:		moe
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	GPL v2+
 Group:		Applications/Editors
 Source0:	https://ftp.gnu.org/gnu/moe/%{name}-%{version}.tar.lz
-# Source0-md5:	15a7452b6fa5083a0e53e0ac616fa1d4
+# Source0-md5:	56e39c4b52c63a5e5fb8cb73fd5fdf22
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/moe/
 BuildRequires:	libstdc++-devel >= 6:4.7
@@ -64,6 +64,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/moe
-%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/moerc
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/moe.conf
 %{_mandir}/man1/moe.1*
 %{_infodir}/moe.info*
