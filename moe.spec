@@ -1,12 +1,12 @@
 Summary:	Powerful and user-friendly text editor
 Summary(pl.UTF-8):	Funkcjonalny i przyjazny edytor tekstu
 Name:		moe
-Version:	1.14
+Version:	1.15
 Release:	1
 License:	GPL v2+
 Group:		Applications/Editors
 Source0:	https://ftp.gnu.org/gnu/moe/%{name}-%{version}.tar.lz
-# Source0-md5:	d8bbcdfac39afedcd5baf430af310ef6
+# Source0-md5:	8148ecedffd389dc6f5feb879d3b6792
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/moe/
 BuildRequires:	libstdc++-devel >= 6:4.7
@@ -39,7 +39,7 @@ ograniczników, konwersję tekstu z/do UTF-8, sprowadzanie do alfabetu
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure
